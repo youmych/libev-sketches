@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/c,c++,vim,qtcreator,visualstudiocode
-# Edit at https://www.gitignore.io/?templates=c,c++,vim,qtcreator,visualstudiocode
+# Created by https://www.gitignore.io/api/c,c++,vim,cmake,qtcreator,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=c,c++,vim,cmake,qtcreator,visualstudiocode
 
 ### C ###
 # Prerequisites
@@ -75,6 +75,23 @@ dkms.conf
 
 # Executables
 
+### CMake ###
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+### CMake Patch ###
+# External projects
+*-prefix/
+
 ### QtCreator ###
 # gitignore for Qt Creator like IDE for pure C/C++ project without Qt
 #
@@ -134,5 +151,5 @@ tags
 # Ignore all local history of files
 .history
 
-# End of https://www.gitignore.io/api/c,c++,vim,qtcreator,visualstudiocode
+# End of https://www.gitignore.io/api/c,c++,vim,cmake,qtcreator,visualstudiocode
 
